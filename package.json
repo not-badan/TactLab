@@ -1,0 +1,16 @@
+{
+  "name": "tactlab",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild main.js --bundle --minify --legal-comments=linked --outfile=public/app.js",
+    "test": "python verify.py"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11",
+    "playwright-core": "1.56.1"
+  }
+}

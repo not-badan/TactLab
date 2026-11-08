@@ -1,0 +1,4 @@
+cadquery==2.7.0
+cadquery-ocp==7.8.1.1.post1
+uvicorn>=0.30,<1
+starlette>=0.47.2,<2
