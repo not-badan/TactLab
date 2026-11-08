@@ -5,3 +5,4 @@ node_modules/
 kits/
 .env
 .env.*
+.venv-release/
